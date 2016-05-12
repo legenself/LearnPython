@@ -37,3 +37,29 @@ def add_end(L=None):
 	L.append("end")
 	return L
 print(add_end())
+
+def fact(n):
+	if n==1:
+		return 1
+	return n*fact(n-1)
+
+print(fact(100))
+
+L=[]
+n=1
+
+while n<=99:
+	L.append(n)
+	n=n+1
+
+print(L)
+
+print(L[0:3])
+
+print(L[-2:])
+
+print(L[:10:2])
+
+print(L[::5])
+
+print()
